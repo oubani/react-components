@@ -18,7 +18,7 @@ export const NavContainer = styled.div`
   padding-inline: 20px;
 `;
 
-export const Logo = styled.a`
+export const Logo = styled(Link)`
   font-size: 2rem;
   justify-self: flex-start;
   cursor: pointer;

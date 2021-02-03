@@ -26,7 +26,7 @@ const Navbar = () => {
           </MobileIcon>
           <NavMenu click={click}>
             <NavItem>
-              <NavLink> Home </NavLink>
+              <NavLink To='/'> Home </NavLink>
             </NavItem>
             <NavItem>
               <NavLink> About </NavLink>
