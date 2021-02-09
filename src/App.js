@@ -8,14 +8,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 
 export const App = () => {
-  const [mode, setMode] = useState(theme.dark);
+  // const [mode, setMode] = useState(theme.dark);
   return (
     <>
       <Router>
         <GlobalStyle />
         <Navbar />
-        <h1>{mode ? 'dark' : 'light'}</h1>
-        <button onClick={() => setMode(!mode)}> Change mode </button>
         <Switch>
           <Route exact path='/' component={Home} />
         </Switch>
