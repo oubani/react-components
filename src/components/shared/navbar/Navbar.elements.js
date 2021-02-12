@@ -23,6 +23,7 @@ export const Logo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   color: #000;
+  text-decoration: none;
 `;
 
 export const MobileIcon = styled.div`
