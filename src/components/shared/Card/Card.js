@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { DropDownMenu } from '../dropdown/DropDownMenu';
 
 const Card = (props) => {
   const tags = [
@@ -18,7 +19,7 @@ const Card = (props) => {
       >
         <CardHeader>
           <CardTitle>The Benefits of Green Apples</CardTitle>
-          <CardOptions> hello </CardOptions>
+          <DropDownMenu></DropDownMenu>
         </CardHeader>
         <CardBody>
           <Date>3/2/2019</Date>

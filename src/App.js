@@ -33,9 +33,9 @@ export const App = () => {
             <div style={{ backgroundColor: 'red' }}>h</div>
             <div style={{ backgroundColor: 'blue' }}>2</div>
             <div style={{ backgroundColor: 'green' }}>3</div>
+            <Card />
             <div style={{ backgroundColor: 'gray' }}>4</div>
           </Wrapper>
-          <Card />
         </Container>
       </Router>
     </>
